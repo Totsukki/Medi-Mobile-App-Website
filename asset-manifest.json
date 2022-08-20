@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/medi-mobile-app-website/static/css/main.34c1b8e6.css",
-    "main.js": "/medi-mobile-app-website/static/js/main.e928398a.js",
-    "static/js/787.e6210788.chunk.js": "/medi-mobile-app-website/static/js/787.e6210788.chunk.js",
-    "static/media/aboutusbg.png": "/medi-mobile-app-website/static/media/aboutusbg.46ddf50e4047cf5497a7.png",
-    "static/media/img2.png": "/medi-mobile-app-website/static/media/img2.9521f42327a414e9b2d6.png",
-    "static/media/phone2.png": "/medi-mobile-app-website/static/media/phone2.ba0d0bf8e52cc7887c54.png",
-    "static/media/img3.png": "/medi-mobile-app-website/static/media/img3.213f4e64a53b819105e2.png",
-    "static/media/img1.png": "/medi-mobile-app-website/static/media/img1.ad3b65362a6db0de58b8.png",
-    "static/media/phone1.png": "/medi-mobile-app-website/static/media/phone1.9712beae2afddbefaf8d.png",
-    "static/media/sticker3.png": "/medi-mobile-app-website/static/media/sticker3.0ff49acecae2f13bd608.png",
-    "static/media/sticker2.png": "/medi-mobile-app-website/static/media/sticker2.355d7b8c656f3de853fd.png",
-    "static/media/headerbg.png": "/medi-mobile-app-website/static/media/headerbg.4591c5aa42d0a1b37041.png",
-    "static/media/sticker1.png": "/medi-mobile-app-website/static/media/sticker1.1d84fed175dd546900d4.png",
-    "index.html": "/medi-mobile-app-website/index.html",
-    "main.34c1b8e6.css.map": "/medi-mobile-app-website/static/css/main.34c1b8e6.css.map",
-    "main.e928398a.js.map": "/medi-mobile-app-website/static/js/main.e928398a.js.map",
-    "787.e6210788.chunk.js.map": "/medi-mobile-app-website/static/js/787.e6210788.chunk.js.map"
+    "main.css": "/Medi-Mobile-App-Website/static/css/main.34c1b8e6.css",
+    "main.js": "/Medi-Mobile-App-Website/static/js/main.f1364179.js",
+    "static/js/787.e6210788.chunk.js": "/Medi-Mobile-App-Website/static/js/787.e6210788.chunk.js",
+    "static/media/aboutusbg.png": "/Medi-Mobile-App-Website/static/media/aboutusbg.46ddf50e4047cf5497a7.png",
+    "static/media/img2.png": "/Medi-Mobile-App-Website/static/media/img2.9521f42327a414e9b2d6.png",
+    "static/media/phone2.png": "/Medi-Mobile-App-Website/static/media/phone2.ba0d0bf8e52cc7887c54.png",
+    "static/media/img3.png": "/Medi-Mobile-App-Website/static/media/img3.213f4e64a53b819105e2.png",
+    "static/media/img1.png": "/Medi-Mobile-App-Website/static/media/img1.ad3b65362a6db0de58b8.png",
+    "static/media/phone1.png": "/Medi-Mobile-App-Website/static/media/phone1.9712beae2afddbefaf8d.png",
+    "static/media/sticker3.png": "/Medi-Mobile-App-Website/static/media/sticker3.0ff49acecae2f13bd608.png",
+    "static/media/sticker2.png": "/Medi-Mobile-App-Website/static/media/sticker2.355d7b8c656f3de853fd.png",
+    "static/media/headerbg.png": "/Medi-Mobile-App-Website/static/media/headerbg.4591c5aa42d0a1b37041.png",
+    "static/media/sticker1.png": "/Medi-Mobile-App-Website/static/media/sticker1.1d84fed175dd546900d4.png",
+    "index.html": "/Medi-Mobile-App-Website/index.html",
+    "main.34c1b8e6.css.map": "/Medi-Mobile-App-Website/static/css/main.34c1b8e6.css.map",
+    "main.f1364179.js.map": "/Medi-Mobile-App-Website/static/js/main.f1364179.js.map",
+    "787.e6210788.chunk.js.map": "/Medi-Mobile-App-Website/static/js/787.e6210788.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.34c1b8e6.css",
-    "static/js/main.e928398a.js"
+    "static/js/main.f1364179.js"
   ]
 }
