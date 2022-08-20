@@ -1,0 +1,13 @@
+* {
+    font-family: Poppins, 'sans-serif';
+}
+
+html,
+body {
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.App-link {
+    color: #61dafb;
+}

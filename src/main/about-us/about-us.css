@@ -1,0 +1,39 @@
+#about-us>div>div>img {
+    height: 8rem;
+    align-self: center;
+    position: absolute;
+    margin-top: -6rem;
+    object-fit: cover;
+}
+
+#about-us>div>div>a {
+    width: 11rem;
+    right: -1rem;
+    bottom: 1rem;
+    position: absolute;
+}
+
+#about-us>div>div>a>i:hover {}
+
+#about-us>div>div>p>strong {
+    font-size: 1.25em;
+}
+
+#about-us>div>div>p {
+    padding-top: 2rem;
+    font-size: .9rem;
+}
+
+#about-us>div>* {
+    background: #252939;
+    color: white;
+    padding: 2rem;
+    width: 35%;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0px 6px 0px 5px #FFCE31;
+    position: relative
+}

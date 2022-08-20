@@ -1,0 +1,9 @@
+main {
+    padding-top: 10rem;
+}
+
+@media only screen and (min-height: 900px) {
+    main {
+        padding-top: 25rem;
+    }
+}

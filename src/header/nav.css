@@ -1,0 +1,22 @@
+nav>div>ul>li {
+    font-size: 1em;
+    width: 6rem;
+    text-align: center;
+}
+
+nav>div>button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 15px #215BF0;
+}
+
+nav>div>ul>li>a:hover {
+    font-weight: 700;
+}
+
+.logo {
+    margin-right: 10%;
+}
+
+.logo:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,4 @@
+.left-side>button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 15px #215BF0;
+}
