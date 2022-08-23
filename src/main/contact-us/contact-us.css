@@ -1,0 +1,27 @@
+.tabs {
+    display: flex;
+}
+
+.tabs>input {
+    appearance: none;
+}
+
+.tabs>label {
+    padding: 1rem 5rem;
+    background: #ddd;
+    margin: 1rem 0;
+    border-radius: .3rem;
+    transition: background 0.3s, color 0.3s;
+}
+
+.tabs>label:hover {
+    background: #252939;
+    color: white;
+    cursor: pointer;
+}
+
+.tabs>input:checked+label {
+    background: #252939;
+    color: white;
+    cursor: pointer;
+}

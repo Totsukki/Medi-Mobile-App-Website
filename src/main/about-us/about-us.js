@@ -12,15 +12,18 @@ class AboutUs extends Component{
     state ={
         cardNum: '',
     }
-    linkHover = () =>{
-        let cards = document.querySelectorAll('.card')
-        cards.forEach(elem=>{
-            elem.addEventListener('onmouseover', e=>{
-                // let svg = document.querySelector(`${elem}`)
-                console.log(elem)
-            })
-        })
+    handleLinkHover = (e) =>{
+        let svg = document.querySelector(`#${e.target.id}>svg`)
+        svg.classList.add('arrowMove')
+        svg.classList.remove('arrowMoveBack')
+        e.target.classList.add('enlarge')
     }
+    handleLinkRemoveHover = (e) =>{
+        let svg = document.querySelector(`#${e.target.id}>svg`)
+        svg.classList.remove('arrowMove')
+        svg.classList.add('arrowMoveBack')
+    }
+
     render(){
         return(
             <div id='about-us' className='flex flex-col justify-center items-center'>
@@ -31,19 +34,20 @@ class AboutUs extends Component{
                     <div className='card'>
                         <img src={s1} alt='Health Sticker'></img>
                         <p><strong>We are here to help</strong><br/>Medi is an application purely for the sake of helping people especially to those who often forget to take care of themselves.</p>
-                        <a href='#about-us' onMouseOver={this.linkHover}>Learn More <FontAwesomeIcon icon={faLongArrowAltRight}/></a>
+                        <a href='#about-us' id='health' onMouseLeave={this.handleLinkRemoveHover} onMouseOver={this.handleLinkHover}>Learn More <FontAwesomeIcon icon={faLongArrowAltRight}/></a>
                     </div>
                     <div className='card'>
                         <img src={s2} alt='Muscle Sticker'></img>
                         <p><strong>Let's make a difference</strong><br/>Many individuals feel they lack the ability to make a difference in the world, but our team seeks to make a difference!</p>
-                        <a href='#about-us' onMouseOver={this.linkHover}>Learn More <FontAwesomeIcon icon={faLongArrowAltRight}/></a>
+                        <a href='#about-us' id='muscle' onMouseLeave={this.handleLinkRemoveHover} onMouseOver={this.handleLinkHover}>Learn More <FontAwesomeIcon icon={faLongArrowAltRight}/></a>
                     </div>
                     <div className='card'>
                         <img src={s3} alt='Virus Sticker'></img>
                         <p><strong>Our Culture</strong><br/>Our team has the culture of “Your contribution is never too small”. This application is not as big as others but it can contribute big!</p>
-                        <a href='#about-us' onMouseOver={this.linkHover}>Learn More <FontAwesomeIcon icon={faLongArrowAltRight}/></a>
+                        <a href='#about-us' id='virus' onMouseLeave={this.handleLinkRemoveHover} onMouseOver={this.handleLinkHover}>Learn More <FontAwesomeIcon icon={faLongArrowAltRight}/></a>
                     </div>
                 </div>
+                <hr className='w-[80%] border-t-2 mt-[5rem]'/>
             </div>
         )
     }

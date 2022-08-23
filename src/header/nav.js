@@ -1,12 +1,11 @@
 import React, {Component} from 'react';
 import Logo from '../img/logo_small.png'
-import bg from '../img/headerbg.png'
+
 import './nav.css'
 class Nav extends Component{
     render(){
         return(
-            <nav className='App-header' >
-                <img className='bg absolute -z-10 w-[100%] h-[120%]' src={bg} alt='Header BG'/>
+            <nav className='App-header fixed w-[100%] h-20 z-10 bg-[#252939]' >
                 <div className='flex flex-row p-10 px-20 items-center text-white'>
                     <img className='logo' src={Logo} alt='Medi Logo'/>
                     <ul className='grid grid-cols-6 color-white justify-center items-center'>

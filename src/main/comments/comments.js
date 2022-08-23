@@ -15,8 +15,9 @@ const items = [
         id={'user1'}/>,
   <Item score={5}
         comment={`“Have been using it for about 2 months and have not had any issues. Reminder sets are great, and ability to show that you purposefully skipped a dose is spot on.”`}
-        picUrl={'https://scontent.fcgy2-1.fna.fbcdn.net/v/t1.18169-9/10953446_665749896884885_8162062935109357569_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEoxAjC5Aqjc_5wfy0WUbImEr6KfX3VGG8Svop9fdUYb2wP4f1qzrOOvFKmCBIkaEheNDIsh9Q35KNKMCYBuYUt&_nc_ohc=--v85fABt_AAX8VCwgK&_nc_ht=scontent.fcgy2-1.fna&oh=00_AT9J6bui0MX40V-lJ5KolD2RTkQVIfTbRUn5dGzqNunidg&oe=632517A2'}
-        name='Sean Maverick Saligue' 
+        picUrl={'https://scontent.xx.fbcdn.net/v/t1.15752-9/279136458_1065046544084363_6101258170635165023_n.png?_nc_cat=107&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeHIbGBz103cIIvpoG-cLVW0I-wr2DhUykEj7CvYOFTKQdPehmAxDuiz6lmC6_4zYTgO8WjRs4BQ6G7WmGhPzzID&_nc_ohc=aXAIk-6HytIAX9yo6mq&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVI0cqYmG1_ENZzgS3esVehjX7fzXAH9Jh5IVrZNrUmK-w&oe=6329A9C7'}
+        name='Sean Maverick Saligue'
+        className='hakdog1'
         id={'user2'}/>,
 <Item score={4}
         comment={`“Pwede raman ta mag puwa nya tapad tang sean para mobigay siyag shade”`}

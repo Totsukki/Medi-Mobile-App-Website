@@ -3,6 +3,7 @@ import './main.css'
 import Info from './info/info.js'
 import Comments from './comments/comments.js'
 import AboutUs from './about-us/about-us.js'
+import ContactUs from "./contact-us/contact-us";
 class Main extends Component{
     render(){
         return(
@@ -10,6 +11,7 @@ class Main extends Component{
                 <Info/>
                 <Comments/>
                 <AboutUs/>
+                <ContactUs/>
             </main>
         )
     }

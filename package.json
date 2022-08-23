@@ -1,12 +1,13 @@
 {
     "name": "klint-mobile-app",
     "version": "0.1.0",
-    "homepage": "https://totsukki.github.io/medi-mobile-app-website",
+    "homepage": "https://totsukki.github.io/Medi-Mobile-App-Website",
     "private": true,
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^6.1.2",
         "@fortawesome/free-solid-svg-icons": "^6.1.2",
         "@fortawesome/react-fontawesome": "^0.2.0",
+        "@googlemaps/react-wrapper": "^1.1.35",
         "@headlessui/react": "^1.6.6",
         "@heroicons/react": "^1.0.6",
         "@testing-library/jest-dom": "^5.16.5",

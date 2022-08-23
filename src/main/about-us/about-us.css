@@ -21,19 +21,50 @@
 
 #about-us>div>div>p {
     padding-top: 2rem;
-    font-size: .9rem;
+    font-size: 1.1vw;
 }
 
 #about-us>div>* {
     background: #252939;
     color: white;
     padding: 2rem;
-    width: 35%;
-    height: 16rem;
+    width: 25vw;
+    height: 16vw;
     display: flex;
     flex-direction: column;
     padding-top: 2rem;
     border-radius: 1rem;
     box-shadow: 0px 6px 0px 5px #FFCE31;
     position: relative
+}
+
+.card {
+    position: relative;
+}
+
+.arrowMove {
+    animation: move;
+    animation-duration: .4s;
+    animation-fill-mode: forwards;
+}
+
+.arrowMoveBack {
+    animation: moveBack;
+    animation-duration: .6s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move {
+    100% {
+        margin-left: .5rem;
+    }
+}
+
+@keyframes moveBack {
+    0% {
+        margin-left: .5rem;
+    }
+    100% {
+        margin-left: -.09rem;
+    }
 }
