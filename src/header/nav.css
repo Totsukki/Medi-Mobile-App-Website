@@ -20,3 +20,14 @@ nav>div>ul>li>a:hover {
 .logo:hover {
     cursor: pointer;
 }
+
+.nav-scroll {
+    margin-top: -2rem;
+    background: #252939;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: margin-top .5s, padding-bottom .5s, background .5s, box-shadow .5s;
+}
+
+nav {
+    transition: margin-top .5s, padding-bottom .5s, background .5s, box-shadow .5s;
+}

@@ -16,17 +16,17 @@ class Item extends Component{
             if(checkIfHalf)
               if(i===(Math.floor(num)))
                 arr.push(
-                  <span key={`${this.props.id}-halfstar`}>
+                  <span key={`${this.props.id+10}-halfstar`}>
                     <FontAwesomeIcon icon={faStar}  color='gray'/>
                     <FontAwesomeIcon icon={faStarHalf} color='yellow' className='ml-[-1.125rem]'/>
                   </span>
                 )
               else  
-                arr.push(<FontAwesomeIcon icon={faStar} key={`${this.props.id}-star`} color='yellow'></FontAwesomeIcon>)  
+                arr.push(<FontAwesomeIcon icon={faStar} key={`${this.props.id}${Math.floor(Math.random()*100)}-star`} color='yellow'></FontAwesomeIcon>)  
             else
-              arr.push(<FontAwesomeIcon icon={faStar} key={`${this.props.id}-star`} color='yellow'></FontAwesomeIcon>) 
+              arr.push(<FontAwesomeIcon icon={faStar} key={`${this.props.id}${Math.floor(Math.random()*100)}-star`} color='yellow'></FontAwesomeIcon>) 
           else
-          arr.push(<FontAwesomeIcon icon={faStar} key={`${this.props.id}-star`} color='gray'></FontAwesomeIcon>) 
+          arr.push(<FontAwesomeIcon icon={faStar} key={`${this.props.id}${Math.floor(Math.random()*100)}-star`} color='gray'></FontAwesomeIcon>) 
     
           i++;
         }

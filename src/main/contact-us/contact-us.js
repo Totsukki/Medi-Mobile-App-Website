@@ -13,11 +13,15 @@ class ContactUs extends Component{
                     <h1 className='mt-10 font-extrabold text-5xl'>Get in Touch!</h1>
                     <p>If you wanna reach out to us, click your desired information that will lead you to us!</p>
                 </div>
-                <div className='radio-wrapper flex flex-row gap-5 justify-center items-center text-center'>
+                <div className='radio-wrapper flex flex-row gap-5 text-center'>
                     <div className='tabs'>
                         <input id='location' type='radio' name='contact'></input>
                         <label htmlFor='location'><div><FontAwesomeIcon icon={faLocation}/></div>Location</label>
-                        <div></div>
+                        <div className="tab-content">
+                            <div>
+                                asdfasdfsadfasdf
+                            </div>
+                        </div>
                     </div>
                     <div className='tabs'>
                         <input id='support' type='radio' name='contact'></input>

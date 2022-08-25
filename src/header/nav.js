@@ -3,9 +3,30 @@ import Logo from '../img/logo_small.png'
 
 import './nav.css'
 class Nav extends Component{
+    componentDidMount= () => {
+        const base = document.querySelector('header')
+        console.log(base)
+        const nav = document.querySelector('nav')
+        const options = {
+            rootMargin: "-600px 0px 0px 0px"
+        }
+
+        const navObserver = new IntersectionObserver(function(entries){
+            entries.forEach(entry =>{
+                if(!entry.isIntersecting){
+                    nav.classList.add('nav-scroll')
+                }
+                else{
+                    nav.classList.remove('nav-scroll')
+                }
+            })
+        }, options)
+
+        navObserver.observe(base)
+    }
     render(){
         return(
-            <nav className='App-header fixed w-[100%] h-20 z-10 bg-[#252939]' >
+            <nav className='App-header fixed w-[100%] h-24 pt-1 z-10' >
                 <div className='flex flex-row p-10 px-20 items-center text-white'>
                     <img className='logo' src={Logo} alt='Medi Logo'/>
                     <ul className='grid grid-cols-6 color-white justify-center items-center'>

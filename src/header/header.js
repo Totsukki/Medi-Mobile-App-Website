@@ -9,7 +9,7 @@ class Header extends Component{
     render(){
         return(
             <header>
-                <img className='bg absolute -z-10 w-[100%] h-[120%]' src={bg} alt='Header BG'/>
+                <img className='home-bg bg absolute -z-10 w-[100%] h-[120%]' src={bg} alt='Header BG'/>
                 <Nav/>
                 <div className='p-20 pt-44 text-white grid grid-cols-2 flex flex-col justify-center'>
                     <div className='left-side w-[80%] flex flex-col justify-center items-center'>

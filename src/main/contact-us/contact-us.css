@@ -1,5 +1,6 @@
 .tabs {
     display: flex;
+    flex-direction: column;
 }
 
 .tabs>input {
@@ -7,6 +8,7 @@
 }
 
 .tabs>label {
+    width: 20vw;
     padding: 1rem 5rem;
     background: #ddd;
     margin: 1rem 0;
@@ -15,8 +17,8 @@
 }
 
 .tabs>label:hover {
-    background: #252939;
-    color: white;
+    background: #bbb;
+    color: black;
     cursor: pointer;
 }
 
@@ -24,4 +26,18 @@
     background: #252939;
     color: white;
     cursor: pointer;
+}
+
+.tabs>label>div>svg {
+    font-size: 2rem;
+}
+
+.tab-content {
+    color: white;
+    /* position: absolute; */
+    width: 30vw;
+    height: 20rem;
+    display: flex;
+    background: #252939;
+    top: 20rem;
 }
