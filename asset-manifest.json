@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Medi-Mobile-App-Website/static/css/main.260a95f1.css",
-    "main.js": "/Medi-Mobile-App-Website/static/js/main.410d37a5.js",
+    "main.css": "/Medi-Mobile-App-Website/static/css/main.7fd0b32d.css",
+    "main.js": "/Medi-Mobile-App-Website/static/js/main.dbbf2849.js",
     "static/js/787.e6210788.chunk.js": "/Medi-Mobile-App-Website/static/js/787.e6210788.chunk.js",
     "static/media/aboutusbg.png": "/Medi-Mobile-App-Website/static/media/aboutusbg.46ddf50e4047cf5497a7.png",
     "static/media/img2.png": "/Medi-Mobile-App-Website/static/media/img2.9521f42327a414e9b2d6.png",
@@ -14,12 +14,12 @@
     "static/media/headerbg.png": "/Medi-Mobile-App-Website/static/media/headerbg.4591c5aa42d0a1b37041.png",
     "static/media/sticker1.png": "/Medi-Mobile-App-Website/static/media/sticker1.1d84fed175dd546900d4.png",
     "index.html": "/Medi-Mobile-App-Website/index.html",
-    "main.260a95f1.css.map": "/Medi-Mobile-App-Website/static/css/main.260a95f1.css.map",
-    "main.410d37a5.js.map": "/Medi-Mobile-App-Website/static/js/main.410d37a5.js.map",
+    "main.7fd0b32d.css.map": "/Medi-Mobile-App-Website/static/css/main.7fd0b32d.css.map",
+    "main.dbbf2849.js.map": "/Medi-Mobile-App-Website/static/js/main.dbbf2849.js.map",
     "787.e6210788.chunk.js.map": "/Medi-Mobile-App-Website/static/js/787.e6210788.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.260a95f1.css",
-    "static/js/main.410d37a5.js"
+    "static/css/main.7fd0b32d.css",
+    "static/js/main.dbbf2849.js"
   ]
 }
