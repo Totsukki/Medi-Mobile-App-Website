@@ -8,7 +8,7 @@ import bg from '../img/headerbg.png'
 class Header extends Component{
     render(){
         return(
-            <header>
+            <header id='header'>
                 <img className='home-bg bg absolute -z-10 w-[100%] h-[120%]' src={bg} alt='Header BG'/>
                 <Nav/>
                 <div className='p-20 pt-44 text-white grid grid-cols-2 flex flex-col justify-center'>

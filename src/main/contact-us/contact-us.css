@@ -47,7 +47,8 @@
     border-top: 7.5vw solid var(--darkblue);
     position: absolute;
     left: 0;
-    top: 98%;
+    top: 97.5%;
+    z-index: -10;
     transition: border-top .3s;
     transition-delay: .1s;
 }

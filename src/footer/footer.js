@@ -16,9 +16,9 @@ class Footer extends Component{
                         <li className="w-24"><a href='#sample' className="hover:font-bold">Privacy</a></li>
                     </ul>
                     <ul className="absolute right-24 flex flex-row justify-end ml-[30vw] text-2xl gap-2">
-                        <li><a href='#sample' className="hover:bg-[#252939] px-2 py-1 rounded-md hover:text-white"><FontAwesomeIcon icon={faDribbble}/></a></li>
-                        <li><a href='#sample' className="hover:bg-[#252939] px-2 py-1 rounded-md hover:text-white"><FontAwesomeIcon icon={faInstagram}/></a></li>
-                        <li><a href='#sample' className="hover:bg-[#252939] px-2 py-1 rounded-md hover:text-white"><FontAwesomeIcon icon={faLinkedin}/></a></li>
+                        <li><a href='#sample' className="hover:bg-[#252939] hover:text-white px-2 py-1 rounded-md transition-all"><FontAwesomeIcon icon={faDribbble}/></a></li>
+                        <li><a href='#sample' className="hover:bg-[#252939] hover:text-white px-2 py-1 rounded-md transition-all"><FontAwesomeIcon icon={faInstagram}/></a></li>
+                        <li><a href='#sample' className="hover:bg-[#252939] hover:text-white px-2 py-1 rounded-md transition-all"><FontAwesomeIcon icon={faLinkedin}/></a></li>
                     </ul>
                 </div>
                     <p className="mt-5">© 2022. All Rights Reserved.</p>                

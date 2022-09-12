@@ -6,7 +6,7 @@ import Img3 from '../../img/img3.png'
 class Info extends Component{
     render(){
         return(
-        <div className="info-wrapper my-20">
+        <div id='info' className="info-wrapper my-20">
             <div className="text-center w-[50rem] m-auto">
                 <h1 className="font-extrabold text-7xl mb-4">All about Medi App</h1>
                 <p>At lacus vitae nulla sagittis scelerisque nisl. Pellentesque duis cursus vestibulum, facilisi ac, sed faucibus.</p>

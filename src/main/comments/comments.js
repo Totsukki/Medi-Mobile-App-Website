@@ -41,7 +41,7 @@ const Gallery = () => {
 class Comments extends Component{
   render(){
       return(
-          <div className="comments-wrapper my-2 text-center bg-[#252939] text-white p-20 flex flex-col justify-center items-center outli" >
+          <div id='comments' className="comments-wrapper my-2 text-center bg-[#252939] text-white p-20 flex flex-col justify-center items-center outli" >
               <div className="w-[40%]">
                   <h1 className="font-extrabold text-6xl">How our users feel about Medi</h1>
                   <p className="mb-4">Read what our users feel about our Medi App!</p>

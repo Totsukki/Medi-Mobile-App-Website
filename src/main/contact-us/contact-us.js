@@ -43,7 +43,7 @@ class ContactUs extends Component{
 
     render(){
         return(
-            <div className='mt-[-2vh] contact-us text-[#000] flex flex-col justify-center items-center overflow-hidden'>
+            <div id='contact-us' className='mt-[-2vh] scroll- contact-us text-[#000] flex flex-col justify-center items-center overflow-hidden'>
                 <div className='flex flex-col justify-center items-center text-black w-[30%] text-center'>
                     <h1 className='mt-10 font-extrabold text-5xl'>Get in Touch!</h1>
                     <p>If you wanna reach out to us, click your desired information that will lead you to us!</p>
@@ -55,11 +55,11 @@ class ContactUs extends Component{
                 </div>
 
                 <div className='tab-content-container bg-[#252939] h-[42.25vw] w-[85vw] mt-16 mb-5 rounded-xl'>
-                    <div id='location' className='tab-content relative p-12 items-center justify-center'>
-                    <iframe className='rounded-md' title='CIT-U' src="https://storage.googleapis.com/maps-solutions-l8kfcx3517/locator-plus/hei5/locator-plus.html"
-                        width="1170vw" height="530vw"
-                        loading="lazy">
-                    </iframe>
+                    <div id='location' className='tab-content p-12 h-[100%]'>
+                        <iframe className='rounded-md' title='CIT-U' src="https://storage.googleapis.com/maps-solutions-l8kfcx3517/locator-plus/hei5/locator-plus.html"
+                            width="100%" height="100%"
+                            loading="lazy">
+                        </iframe>
                     </div>
                     <div id='support' className='tab-content p-12 hidden grid-cols-2 gap-3 items-center justify-center'>
                         <div  className='flex flex-col justify-center items-center'>
@@ -76,9 +76,9 @@ class ContactUs extends Component{
                         <div className='flex self-start items-left flex-col'>
                             <h1 className='text-5xl font-bold text-white mb-5'>Email Us</h1>
                             <form className='flex flex-col gap-3 text-2xl'>
-                                <input type='text' className='rounded-full w-[100%] px-6 py-4' placeholder='Name'></input>
+                                <input type='text' className='w-[100%] rounded-[1.7rem] px-6 py-4' placeholder='Name'></input>
                                 <textarea type='' className='rounded-3xl resize-none w-[100%] h-[20vw] px-6 py-4' placeholder='Message'></textarea>
-                                <button type='submit' className='bg-white w-[30%] p-2 rounded-full self-end text-md'>Send</button>
+                                <button type='submit' className='bg-white w-[30%] p-2 rounded-full self-end text-md hover:bg-[#e0e0e0]'>Send</button>
                             </form>
                         </div>
                         <div className='text-[5vw] relative text-[#FDA231] ml-5 flex flex-col justify-center items-center' >
