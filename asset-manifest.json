@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/Medi-Mobile-App-Website/static/css/main.7fd0b32d.css",
-    "main.js": "/Medi-Mobile-App-Website/static/js/main.dbbf2849.js",
+    "main.css": "/Medi-Mobile-App-Website/static/css/main.2ae15b68.css",
+    "main.js": "/Medi-Mobile-App-Website/static/js/main.83a95e75.js",
     "static/js/787.e6210788.chunk.js": "/Medi-Mobile-App-Website/static/js/787.e6210788.chunk.js",
     "static/media/aboutusbg.png": "/Medi-Mobile-App-Website/static/media/aboutusbg.46ddf50e4047cf5497a7.png",
+    "static/media/guy.png": "/Medi-Mobile-App-Website/static/media/guy.c110fb6bce4ba642ca29.png",
     "static/media/img2.png": "/Medi-Mobile-App-Website/static/media/img2.9521f42327a414e9b2d6.png",
     "static/media/phone2.png": "/Medi-Mobile-App-Website/static/media/phone2.ba0d0bf8e52cc7887c54.png",
     "static/media/img3.png": "/Medi-Mobile-App-Website/static/media/img3.213f4e64a53b819105e2.png",
@@ -12,14 +13,15 @@
     "static/media/sticker3.png": "/Medi-Mobile-App-Website/static/media/sticker3.0ff49acecae2f13bd608.png",
     "static/media/sticker2.png": "/Medi-Mobile-App-Website/static/media/sticker2.355d7b8c656f3de853fd.png",
     "static/media/headerbg.png": "/Medi-Mobile-App-Website/static/media/headerbg.4591c5aa42d0a1b37041.png",
+    "static/media/img_bag.png": "/Medi-Mobile-App-Website/static/media/img_bag.eba95374bd489fe4a708.png",
     "static/media/sticker1.png": "/Medi-Mobile-App-Website/static/media/sticker1.1d84fed175dd546900d4.png",
     "index.html": "/Medi-Mobile-App-Website/index.html",
-    "main.7fd0b32d.css.map": "/Medi-Mobile-App-Website/static/css/main.7fd0b32d.css.map",
-    "main.dbbf2849.js.map": "/Medi-Mobile-App-Website/static/js/main.dbbf2849.js.map",
+    "main.2ae15b68.css.map": "/Medi-Mobile-App-Website/static/css/main.2ae15b68.css.map",
+    "main.83a95e75.js.map": "/Medi-Mobile-App-Website/static/js/main.83a95e75.js.map",
     "787.e6210788.chunk.js.map": "/Medi-Mobile-App-Website/static/js/787.e6210788.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fd0b32d.css",
-    "static/js/main.dbbf2849.js"
+    "static/css/main.2ae15b68.css",
+    "static/js/main.83a95e75.js"
   ]
 }
