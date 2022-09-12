@@ -27,7 +27,7 @@ class AboutUs extends Component{
     render(){
         return(
             <div id='about-us' className='flex flex-col justify-center items-center'>
-                <img className='absolute -z-10 mt-[-4%] fit-cover' src={bg} alt='About Us BG'></img>
+                <img className='absolute -z-10 mt-[-6%] fit-cover' src={bg} alt='About Us BG'></img>
                 <h1 className='text-center text-6xl pt-20 font-bold'>About Us</h1>
                 
                 <div className='flex flex-row px-64 pb-64 pt-36 gap-4 justify-center items-center text-[120%]'>

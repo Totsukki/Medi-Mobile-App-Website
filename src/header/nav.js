@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Logo from '../img/logo_small.png'
+import Logo from '../img/logo_darkbg.png'
 
 import './nav.css'
 class Nav extends Component{
@@ -8,7 +8,7 @@ class Nav extends Component{
         console.log(base)
         const nav = document.querySelector('nav')
         const options = {
-            rootMargin: "-600px 0px 0px 0px"
+            rootMargin: "-550px 0px 0px 0px"
         }
 
         const navObserver = new IntersectionObserver(function(entries){

@@ -4,8 +4,9 @@
     "homepage": "https://totsukki.github.io/Medi-Mobile-App-Website",
     "private": true,
     "dependencies": {
-        "@fortawesome/fontawesome-svg-core": "^6.1.2",
-        "@fortawesome/free-solid-svg-icons": "^6.1.2",
+        "@fortawesome/fontawesome-svg-core": "^6.2.0",
+        "@fortawesome/free-brands-svg-icons": "^6.2.0",
+        "@fortawesome/free-solid-svg-icons": "^6.2.0",
         "@fortawesome/react-fontawesome": "^0.2.0",
         "@googlemaps/react-wrapper": "^1.1.35",
         "@headlessui/react": "^1.6.6",

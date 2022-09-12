@@ -8,12 +8,16 @@
 }
 
 .tabs>label {
-    width: 20vw;
+    width: 15vw;
     padding: 1rem 5rem;
     background: #ddd;
     margin: 1rem 0;
     border-radius: .3rem;
     transition: background 0.3s, color 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .tabs>label:hover {
@@ -23,21 +27,35 @@
 }
 
 .tabs>input:checked+label {
-    background: #252939;
+    background: var(--darkblue);
     color: white;
     cursor: pointer;
+    position: relative;
+}
+
+.tabs>input+label::after {
+    content: '';
+    border: 0 solid var(--darkblue);
+}
+
+.tabs>input:checked+label::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 7.5vw solid transparent;
+    border-right: 7.5vw solid transparent;
+    border-top: 7.5vw solid var(--darkblue);
+    position: absolute;
+    left: 0;
+    top: 98%;
+    transition: border-top .3s;
+    transition-delay: .1s;
 }
 
 .tabs>label>div>svg {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .tab-content {
-    color: white;
-    /* position: absolute; */
-    width: 30vw;
-    height: 20rem;
-    display: flex;
-    background: #252939;
-    top: 20rem;
+    transition: display 1s;
 }

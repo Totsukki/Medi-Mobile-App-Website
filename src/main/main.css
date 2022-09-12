@@ -1,3 +1,7 @@
+:root {
+    --darkblue: #252939;
+}
+
 main {
     padding-top: 10rem;
 }

@@ -22,11 +22,11 @@ class Item extends Component{
                   </span>
                 )
               else  
-                arr.push(<FontAwesomeIcon icon={faStar} key={`${this.props.id}${Math.floor(Math.random()*100)}-star`} color='yellow'></FontAwesomeIcon>)  
+                arr.push(<FontAwesomeIcon icon={faStar} key={`${this.props.id}${Math.floor(Math.random()*1000)}-star`} color='yellow'></FontAwesomeIcon>)  
             else
-              arr.push(<FontAwesomeIcon icon={faStar} key={`${this.props.id}${Math.floor(Math.random()*100)}-star`} color='yellow'></FontAwesomeIcon>) 
+              arr.push(<FontAwesomeIcon icon={faStar} key={`${this.props.id}${Math.floor(Math.random()*1000)}-star`} color='yellow'></FontAwesomeIcon>) 
           else
-          arr.push(<FontAwesomeIcon icon={faStar} key={`${this.props.id}${Math.floor(Math.random()*100)}-star`} color='gray'></FontAwesomeIcon>) 
+          arr.push(<FontAwesomeIcon icon={faStar} key={`${this.props.id}${Math.floor(Math.random()*1000)}-star`} color='gray'></FontAwesomeIcon>) 
     
           i++;
         }
